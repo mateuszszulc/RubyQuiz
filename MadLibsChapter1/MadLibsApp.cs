@@ -5,10 +5,13 @@ using System.Text;
 
 namespace MadLibsChapter1
 {
-    class Program
+    class MadLibsApp
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello World!");
+            MadLibs madLibs = new MadLibs();
+            madLibs.run();
         }
     }
 }
